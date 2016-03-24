@@ -9,5 +9,5 @@ This project provide a framework to process video data using spark, and the main
 2.  to run spark cluster model, do `./package-run-cluster.sh`
 
 ## Notice
-1. custom_spark_lib/hadoopCustomInputFormat.jar, the file is compiled by [jinputFormat.sh](https://github.com/lasclocker/Hadoop-Process-Video-Data/blob/master/Hadoop_streaming_process_video_source_code/jinputFormat.sh)  
+1. custom_spark_lib/hadoopCustomInputFormat.jar, the file is compiled by [jinputFormat.sh](Hadoop_streaming_process_video_source_code/jinputFormat.sh)  
 2. You should put `libInputFormatSo.so` into Hadoop's `java.library.path`, the Corresponding default path is `$HADOOP_HOME/lib/native`.  
